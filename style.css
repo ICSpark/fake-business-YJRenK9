@@ -19,7 +19,7 @@ a:hover {
 
 #logo-container {
     /* Change me! */
-    background-image: url('image-examples/Logo-example.png');
+    background-image: url('https://th.bing.com/th/id/OIP.lz9BJbYT3zQCTcCtVjaGyQHaHX?w=566&h=563&rs=1&pid=ImgDetMain');
     
     /* Centers the image */
     background-position: center center;
@@ -99,12 +99,16 @@ a:hover {
 }
 
 .item-name {
+    display: flex;
+    justify-content: space-around;
     font-family: "Sarala", serif;
     font-weight: 700;
     font-style: normal;
 }
 
 .item-price {
+    display: flex;
+    justify-content: space-around;
     font-family: "Taviraj", serif;
     font-weight: 300;
     font-style: normal;
